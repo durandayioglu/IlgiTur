@@ -21,8 +21,6 @@ public class rehber extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
-
         rehberler = (ExpandableListView) findViewById(R.id.rehberListe);
         rehberler.setAdapter(new Islemler(this));
 
