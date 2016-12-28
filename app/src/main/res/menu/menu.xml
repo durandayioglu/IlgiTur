@@ -1,0 +1,17 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_buyut"
+        android:icon="@drawable/buyut"
+        android:title="Yazıyı Büyüt"
+        app:showAsAction="ifRoom"
+ />
+    <item
+        android:id="@+id/action_kucult"
+        android:icon="@drawable/kucult"
+        android:title="Yazıyı Küçült"
+        app:showAsAction="ifRoom"
+        />
+</menu>

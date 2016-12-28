@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_iletisim"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dd.ilgitur.iletisim"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Bize Ulaşın"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtAdSoyad"
+                android:hint="Ad Soyad" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtIletisim"
+                android:hint="Telefon"
+                android:layout_below="@+id/txtKonu"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/txtKonu"
+                android:hint="Konu"
+                android:layout_below="@+id/txtEposta"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/txtMesaj"
+                android:hint="Mesajınız"
+                android:layout_below="@+id/txtIletisim"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:text="Gönder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGonder"
+                android:layout_below="@+id/txtMesaj"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:text="Amasya/MERKEZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtBaslik"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="#ca4397"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Mustafa Kemal paşa Cad. No:67/C( SULTAN BEYAZIT CAMİİ KARŞISI) AMASYA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMerkezAdres"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/txtBaslik"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:text="Tel: 0358 212 45 44 - 0544 542 43 42 - 0542 688 70 00"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMerkezAdres"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtMerkezTel"
+                android:textColor="@android:color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Antalya / ŞUBE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtMerkezTel"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtAntalyaAdres"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="#ca4397"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Kızılsaray Mah. 61. Sk. No:49/1045 Muratpaşa ANTALYA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAntalyaAdres1"
+                android:layout_below="@+id/txtAntalyaAdres"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Tel: 0242 248 11 77 - 0532 742 99 84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAntalyaTel"
+                android:layout_below="@+id/txtAntalyaAdres1"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Vezirköprü/ŞUBE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtAntalyaTel"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtVezirkopru"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:textColor="#ca4397"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Fazıl Ahmet Paşa Mah. İstiklal Cad. No:19 Vezirköprü SAMSUN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVezirkopruAdres"
+                android:textAlignment="center"
+                android:layout_below="@+id/txtVezirkopru"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="Tel: 0362 646 18 88 - 0544 414 48 50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtVezirkopruTel"
+                android:layout_below="@+id/txtVezirkopruAdres"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="www.ilgiturizm.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtWeb"
+                android:textAlignment="center"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

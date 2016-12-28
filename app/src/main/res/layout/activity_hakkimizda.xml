@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hakkimizda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dd.ilgitur.hakkimizda"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="İlgi turizm, genç ve dinamik kadrosuyla tecrübeli personellerini harmanlamış, müşteri memnuniyetini ön planda tutarak, hizmetlerini sürekli iyileştirmeyi ve geliştirmeyi misyon edinmiş ve sizlere en iyi hizmet kalitesini, güveni, memnuniyeti, istikrarı ve kurumsallığı vadetmektedir.  Kısa zamanda turizm sektöründe önde gelen kurumsal acentalarından olmayı ve turizme farklı soluklarla renk katmayı amaç edinerek, çıktığımız bu yolda, gerçekleşen organizasyonlarda almış olduğumuz olumlu sonuçlarla ve siz değerli misafirlerimizin memnuniyet içeren geri bildirimleri ile günbegün büyümekte ve daha iyiye ilerlemekteyiz.  Değişen şartlar ve sektörel trendleri günü gününe takip eden firmamız müşterilerine daima yepyeni hizmetleri sunarken hatırlanmaya değer ve benzerleri arasında ayırt edilebilen organizasyonlarıyla her zaman ilklere imza atmayı görev edinmiştir.  Siz değerli misafirlerimizi kendimize bir dost olarak görmekte ve bu doğrultuda vermiş olduğumuz hizmetlerde ekibimizle birlikte tüm seyahatlerinizde hizmette mükemmeliyeti yakalamak temel amacımızdır. Hizmetlerimizi kalite yönetim sistemi çerçevesinde en üst seviyede tutmayı ve siz değerli dostlarımızın tavsiyeleri ile sürekli geliştirerek seyahatlerinizin başında ve sonunda dost kalabilmeyi benimsemişizdir." />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Misyonumuz"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="İşletmemizin misyonu; müşterilerimize seyahat acentalığı konusunda en iyi hizmeti vererek, seyahatlerinin başından sonuna kadar yaşadıkları her konuda yardımcı olarak memnuniyetlerini sağlamak, turizm sektöründe yenilikçi ve güvene dayalı hizmet sunarak katma değer yaratmaktır." />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vizyonumuz"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Günümüz ve geleceğin değişen koşullarını ve sektör anlayışını takip ederek, güvenirlilik ve kaliteden ödün vermeden müşteri memnuniyeti odaklı geniş bir portföye hizmet vererek, seyahat acentalığı ve turizm sektörünün önde gelen firmaları arasında yer almak" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
