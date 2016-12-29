@@ -31,10 +31,6 @@
         <activity
             android:name=".RehberIcerik"
             android:label="Rehber" />
-        <activity
-            android:name=".deneme"
-            android:label="@string/title_activity_deneme"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
