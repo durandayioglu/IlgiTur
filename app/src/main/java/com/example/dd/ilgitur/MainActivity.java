@@ -49,18 +49,6 @@ public class MainActivity extends AppCompatActivity {
         return app_installed;
     }
 
-    public static Intent getOpenFacebookIntent(Context context) {
-
-        try {
-            context.getPackageManager()
-                    .getPackageInfo("com.facebook.katana", 0);
-            return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("fb://profile/342769215893522"));
-        } catch (Exception e) {
-            return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://www.facebook.com/ilgitour"));
-        }
-    }
     public static Intent getOpenInstagramIntent(Context context) {
 
         try {
@@ -97,14 +85,9 @@ public class MainActivity extends AppCompatActivity {
             i.setData(Uri.parse("http://ilgiturizm.com/package-category/umre/"));
             startActivity(i);
         } else if (view.getId()==facebookView.getId()){
-            boolean installed = appInstalledOrNot("com.facebook.katana");
-            if (installed) {
-                startActivity(getOpenFacebookIntent(MainActivity.this));
-            } else {
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("http://www.facebook.com/ilgitour"));
                 startActivity(intent);
-            }
         } else if (view.getId() == instagramView.getId()) {
 
             boolean installed = appInstalledOrNot("com.instagram.android");

@@ -24,7 +24,7 @@ public class Islemler extends BaseExpandableListAdapter {
             {"TAVAF DUALARI","SAY DUALARI","ZEMZEM İÇERKEN OKUNACAK DUA","KABEYİ GÖRÜNCE OKUNACAK DUA","MEKKEYE GİRİNCE OKUNACAK DUA","İHRAMA GİRERKEN OKUNACAK DUA","VASITAYA BİNİNCE OKUNACAK DUA","EVDEN AYRILIRKEN OKUNACAK DUA"},
             {"HAC NEDİR","HACCIN MANASI","UMRE İLE HAC ARASINDAKİ FARKLAR","HAC İÇİN İHRAMA GİRİŞ VE ARAFATA ÇIKIŞ","ARAFAT VAKFESİ"},
             {"UMRE NEDİR","UMRENİN EDA ŞEKLİ","UMREYE NİYET","UMRE NASIL YAPILIR","UMRENİN MANASI","UMRE YOLCULUĞU HAKKINDA TAVSİYELER","İHRAM YASAKLARI"},
-            {"MEKKE GENEL BİLGİLER","MESCİDİ HARAM","CEBELİ NUR","CİN MESCİDİ","CENNT'UL MUALLA KABRİSTANI","ZEMZEM","HECER-İ ESVED","RASULULLAH'IN DOĞDUĞU EV","MİNA","MÜZDELİFE","ARAFAT","CEBEL-İ SEVR"},
+            {"MEKKE GENEL BİLGİLER","MESCİDİ HARAM","CEBELİ NUR","CİN MESCİDİ","CENNET'UL MUALLA KABRİSTANI","ZEMZEM","HECER-İ ESVED","RASULULLAH'IN DOĞDUĞU EV","MİNA","MÜZDELİFE","ARAFAT","CEBEL-İ SEVR"},
             {"RAVZA-İ MUTAHHARA","MESCİDİ NEBEVİ","CENNETÜL BAKİ","KUBA MESCİDİ","KIBLETEYN MESCİDİ","UHUD","CUMA MESCİDİ","YEDİ MESCİDLER"}
     };
 
@@ -88,6 +88,7 @@ public class Islemler extends BaseExpandableListAdapter {
         TextView tv2=new TextView(c);
         tv2.setText(listeicerik[i][i1]);
         tv2.setTypeface(ozelyazi);
+        tv2.setTextColor(Color.BLACK);
         tv2.setTextSize(20);
         tv2.setPadding(100,15,15,15);
         return tv2;

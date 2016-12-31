@@ -28,9 +28,8 @@
         <activity
             android:name=".rehber"
             android:label="Hac ve Umre Rehberi" />
-        <activity
-            android:name=".RehberIcerik"
-            android:label="Rehber" />
+        <activity android:name=".RehberIcerik"
+            android:label="Hac ve Umre Rehber İçeriği"/>
     </application>
 
 </manifest>
