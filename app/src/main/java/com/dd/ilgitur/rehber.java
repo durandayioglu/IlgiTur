@@ -1,4 +1,4 @@
-package com.example.dd.ilgitur;
+package com.dd.ilgitur;
 
 
 import android.content.Intent;
@@ -9,7 +9,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 
-import android.widget.AdapterView;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.TextView;

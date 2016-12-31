@@ -1,4 +1,4 @@
-package com.example.dd.ilgitur;
+package com.dd.ilgitur;
 
 import android.content.Context;
 import android.content.Intent;

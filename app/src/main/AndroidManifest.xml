@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dd.ilgitur">
+    package="com.dd.ilgitur">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
@@ -12,6 +12,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,15 +22,19 @@
         </activity>
         <activity
             android:name=".hakkimizda"
-            android:label="Hakkımızda" />
+            android:label="Hakkımızda"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".iletisim"
-            android:label="İletişim" />
+            android:label="İletişim"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".rehber"
-            android:label="Hac ve Umre Rehberi" />
+            android:label="Hac ve Umre Rehberi"
+            android:screenOrientation="portrait"/>
         <activity android:name=".RehberIcerik"
-            android:label="Hac ve Umre Rehber İçeriği"/>
+            android:label="Hac ve Umre Rehber İçeriği"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

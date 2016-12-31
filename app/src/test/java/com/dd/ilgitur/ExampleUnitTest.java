@@ -1,4 +1,4 @@
-package com.example.dd.ilgitur;
+package com.dd.ilgitur;
 
 import org.junit.Test;
 
