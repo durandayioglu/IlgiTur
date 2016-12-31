@@ -49,7 +49,7 @@ public class RehberIcerik extends AppCompatActivity {
                 yazi.setTextSize(metinBoyutu);
                 return true;
             case android.R.id.home:
-                Intent i=new Intent(getApplicationContext(),MainActivity.class);
+                Intent i=new Intent(getApplicationContext(),rehber.class);
                 NavUtils.navigateUpTo(this,i);
                 return true;
             default:
