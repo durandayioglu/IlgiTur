@@ -74,7 +74,7 @@ public class Islemler extends BaseExpandableListAdapter {
         TextView tv1=new TextView(c);
         tv1.setText(liste[i]);
         tv1.setTypeface(ozelyazi);
-        tv1.setTextSize(40);
+        tv1.setTextSize(30);
         tv1.setPadding(80,10,10,10);
         tv1.setTextColor(Color.WHITE);
         tv1.setBackgroundColor(Color.rgb(202,73,153));

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView instagramView;
     ImageView webView;
     ImageView araView;
-    String telNo="05426887000";
+    String telNo="+905426887000";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,8 +81,10 @@ public class MainActivity extends AppCompatActivity {
             i.setData(Uri.parse("tel:"+telNo));
             startActivity(i);
         } else if (view.getId()==programlarView.getId()){
-            Intent i=new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse("http://ilgiturizm.com/package-category/umre/"));
+           Intent i=new Intent(MainActivity.this,programlar.class);
+            startActivity(i);
+           // Intent i=new Intent(Intent.ACTION_VIEW);
+            //i.setData(Uri.parse("http://ilgiturizm.com/package-category/umre/"));
             startActivity(i);
         } else if (view.getId()==facebookView.getId()){
                 Intent intent = new Intent(Intent.ACTION_VIEW);

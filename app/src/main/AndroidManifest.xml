@@ -3,6 +3,7 @@
     package="com.dd.ilgitur">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -23,18 +24,23 @@
         <activity
             android:name=".hakkimizda"
             android:label="Hakkımızda"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".iletisim"
             android:label="İletişim"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".rehber"
             android:label="Hac ve Umre Rehberi"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".RehberIcerik"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RehberIcerik"
             android:label="Hac ve Umre Rehber İçeriği"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".programlar"
+            android:label="Programlarımız"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
