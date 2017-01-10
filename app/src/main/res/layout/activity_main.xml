@@ -9,6 +9,49 @@
     android:background="@drawable/background">
 
     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:scaleType="fitCenter">
+
+        <ImageView
+            app:srcCompat="@drawable/f1"
+            android:id="@+id/facebookView"
+            android:layout_weight="1"
+            android:onClick="yonlendirme"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/i1"
+            android:id="@+id/instagramView"
+            android:layout_weight="1"
+            android:onClick="yonlendirme"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/web"
+            android:id="@+id/webView"
+            android:layout_weight="1"
+            android:onClick="yonlendirme"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/ara"
+            android:id="@+id/araView"
+            android:layout_weight="1"
+            android:onClick="yonlendirme"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -65,49 +108,6 @@
                 android:id="@+id/iletisimView"
                 android:onClick="yonlendirme" />
         </LinearLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="13dp"
-        android:scaleType="fitCenter">
-
-        <ImageView
-            app:srcCompat="@drawable/f1"
-            android:id="@+id/facebookView"
-            android:layout_weight="1"
-            android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
-
-        <ImageView
-            app:srcCompat="@drawable/i1"
-            android:id="@+id/instagramView"
-            android:layout_weight="1"
-            android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
-
-        <ImageView
-            app:srcCompat="@drawable/web"
-            android:id="@+id/webView"
-            android:layout_weight="1"
-            android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
-
-        <ImageView
-            app:srcCompat="@drawable/ara"
-            android:id="@+id/araView"
-            android:layout_weight="1"
-            android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
     </LinearLayout>
 
 </RelativeLayout>
