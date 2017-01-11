@@ -10,45 +10,44 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginBottom="13dp"
-        android:scaleType="fitCenter">
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
 
         <ImageView
             app:srcCompat="@drawable/f1"
             android:id="@+id/facebookView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
 
         <ImageView
             app:srcCompat="@drawable/i1"
             android:id="@+id/instagramView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
 
         <ImageView
             app:srcCompat="@drawable/web"
             android:id="@+id/webView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
 
         <ImageView
             app:srcCompat="@drawable/ara"
             android:id="@+id/araView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="50dp"
-            android:layout_height="50dp" />
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
     </LinearLayout>
 
     <LinearLayout
