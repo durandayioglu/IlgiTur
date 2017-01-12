@@ -8,6 +8,16 @@
     tools:context="com.dd.ilgitur.MainActivity"
     android:background="@drawable/background">
 
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/logoyeni"
+        android:id="@+id/imageView"
+
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="250dp" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="wrap_content"
@@ -15,98 +25,80 @@
         android:layout_marginBottom="13dp"
         android:scaleType="fitCenter"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout">
 
         <ImageView
             app:srcCompat="@drawable/f1"
             android:id="@+id/facebookView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="70dp"
-            android:layout_height="70dp" />
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
 
         <ImageView
             app:srcCompat="@drawable/i1"
             android:id="@+id/instagramView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="70dp"
-            android:layout_height="70dp" />
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
 
         <ImageView
             app:srcCompat="@drawable/web"
             android:id="@+id/webView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="70dp"
-            android:layout_height="70dp" />
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
 
         <ImageView
             app:srcCompat="@drawable/ara"
             android:id="@+id/araView"
             android:layout_weight="1"
             android:onClick="yonlendirme"
-            android:layout_width="70dp"
-            android:layout_height="70dp" />
+            android:layout_width="55dp"
+            android:layout_height="55dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
 
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            app:srcCompat="@drawable/logoyeni"
-            android:id="@+id/imageView"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-
-            android:layout_gravity="center" />
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="right">
+            app:srcCompat="@drawable/hakkimizda"
+            android:id="@+id/hakkimizdaView"
+            android:onClick="yonlendirme"
+            />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/hakkimizda"
-                android:id="@+id/hakkimizdaView"
-                android:onClick="yonlendirme"
-                />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hacumre"
+            android:id="@+id/rehberView"
+            android:onClick="yonlendirme" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/hacumre"
-                android:id="@+id/rehberView"
-                android:onClick="yonlendirme" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/programlar"
+            android:id="@+id/programlarView"
+            android:onClick="yonlendirme" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/programlar"
-                android:id="@+id/programlarView"
-                android:onClick="yonlendirme" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/iletisim"
-                android:id="@+id/iletisimView"
-                android:onClick="yonlendirme" />
-        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/iletisim"
+            android:id="@+id/iletisimView"
+            android:onClick="yonlendirme" />
     </LinearLayout>
 
 </RelativeLayout>
