@@ -19,11 +19,11 @@ public class Islemler extends BaseExpandableListAdapter {
 
     String[] liste={"DUALAR","HAC","UMRE","MEKKE ZİYARET YERLERİ","MEDİNE ZİYARET YERLERİ"};
     String[][] listeicerik={
-            {"TAVAF DUALARI","SAY DUALARI","ZEMZEM İÇERKEN OKUNACAK DUA","KABEYİ GÖRÜNCE OKUNACAK DUA","MEKKEYE GİRİNCE OKUNACAK DUA","İHRAMA GİRERKEN OKUNACAK DUA","VASITAYA BİNİNCE OKUNACAK DUA","EVDEN AYRILIRKEN OKUNACAK DUA"},
-            {"HAC NEDİR","HACCIN YAPILIŞI","UMRE İLE HAC ARASINDAKİ FARKLAR","HAC İÇİN İHRAMA GİRİŞ VE ARAFATA ÇIKIŞ","ARAFAT VAKFESİ"},
-            {"UMRE NEDİR","UMREYE NİYET","UMRE NASIL YAPILIR","UMRENİN MANASI","UMRE YOLCULUĞU HAKKINDA TAVSİYELER","İHRAM YASAKLARI"},
-            {"MEKKE GENEL BİLGİLER","MESCİDİ HARAM","CEBELİ NUR","CİN MESCİDİ","CENNET'UL MUALLA KABRİSTANI","ZEMZEM","HECER-İ ESVED","RASULULLAH'IN DOĞDUĞU EV","MİNA","MÜZDELİFE","ARAFAT","CEBEL-İ SEVR"},
-            {"RAVZA-İ MUTAHHARA","MESCİDİ NEBEVİ","CENNETÜL BAKİ","KUBA MESCİDİ","KIBLETEYN MESCİDİ","UHUD","CUMA MESCİDİ","YEDİ MESCİDLER"}
+            {"Tavaf Duaları","Say Duaları","Zemzem İçerken Okunacak Dua","Kabeyi Görünce Okunacak Dua","Mekkeye Girince Okunacak Dua","İhrama Girerken Okunacak Dua","Vasıtaya Binince Okunacak Dua","Evden Ayrılırken Okunacak Dua"},
+            {"Hac Nedir?","Hac Nasıl Yapılır?","Umre ile Hac Arasındaki Farklar","Hac İçin İhrama Giriş ve Arafata Çıkış","Arafat Vakfesi"},
+            {"Umre Nedir?","Umreye Niyet","Umre Nasıl Yapılır?","Umrenin Manası","Umre Yolculuğu Hakkında Tavsiyeler","İhram Yasakları Nelerdir?"},
+            {"Mekke Hakkında Genel Bilgiler","Mescid-i Haram","Cebel-i Nur","Cin Mescidi","Cennet'ul Mualla Kabristanı","Zemzem","Hecer-i Esved","Rasulullah'ın Doğduğu Ev","Mina","Müzdelife","Arafat","Cebel-i Sevr"},
+            {"Ravza-i Mutahhara","Mescid-i Nebevi","Cennet-ül Baki","Kuba Mescidi","Kıbleteyn Mescidi","Uhud","Cuma Mescidi","Yedi Mescidler"}
     };
 
 
@@ -77,7 +77,7 @@ public class Islemler extends BaseExpandableListAdapter {
         tv1.setTextSize(30);
         tv1.setPadding(80,10,10,10);
         tv1.setTextColor(Color.WHITE);
-        tv1.setBackgroundColor(Color.rgb(202,73,153));
+        tv1.setBackgroundColor(Color.rgb(255,21,30));
         return tv1;
     }
 
