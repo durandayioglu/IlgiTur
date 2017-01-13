@@ -102,7 +102,7 @@
                 android:id="@+id/txtBaslik"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ff0e17"
+                android:textColor="@color/button"
                 android:textAlignment="center" />
 
             <TextView
@@ -135,7 +135,7 @@
                 android:id="@+id/txtAntalyaAdres"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ff0e17"
+                android:textColor="@color/button"
                 android:textAlignment="center" />
 
             <TextView
@@ -168,7 +168,7 @@
                 android:id="@+id/txtVezirkopru"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ff0e17"
+                android:textColor="@color/button"
                 android:textAlignment="center" />
 
             <TextView
