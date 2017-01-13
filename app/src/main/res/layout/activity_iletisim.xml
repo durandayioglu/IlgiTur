@@ -74,11 +74,13 @@
             <Button
                 android:text="Gönder"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="45dp"
                 android:id="@+id/btnGonder"
                 android:layout_below="@+id/txtMesaj"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
+                android:background="@drawable/btn"
+                android:textColor="@color/white"
                 android:layout_marginTop="24dp" />
 
             <TextView
@@ -100,7 +102,7 @@
                 android:id="@+id/txtBaslik"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ca4397"
+                android:textColor="#ff0e17"
                 android:textAlignment="center" />
 
             <TextView
@@ -133,7 +135,7 @@
                 android:id="@+id/txtAntalyaAdres"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ca4397"
+                android:textColor="#ff0e17"
                 android:textAlignment="center" />
 
             <TextView
@@ -166,7 +168,7 @@
                 android:id="@+id/txtVezirkopru"
                 android:textStyle="normal|bold"
                 android:textSize="18sp"
-                android:textColor="#ca4397"
+                android:textColor="#ff0e17"
                 android:textAlignment="center" />
 
             <TextView
